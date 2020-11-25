@@ -6,6 +6,7 @@ namespace TRPO_Lab2
     {
         static void Main(string[] args)
         {
+            Console.WriteLine("Добро пожаловать!");
             Console.WriteLine("Введите первый операнд");
             double o1 = Convert.ToDouble(Console.ReadLine());
             Console.WriteLine("Введите знак операции");
