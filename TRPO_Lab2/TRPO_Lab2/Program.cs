@@ -25,6 +25,7 @@ namespace TRPO_Lab2
                     res = o1 * o2;
                     break;
                 case "/":
+                    if (o2 == 0) { Console.WriteLine("На 0 делить нельзя!"); return; }
                     res = o1 / o2;
                     break;
             }
